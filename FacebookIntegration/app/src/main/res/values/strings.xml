@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Facebook Integration</string>
+    <string name="facebook_app_id">1143057982433856</string>
+    <string name="gender">gender</string>
+    <string name="name">name</string>
+    <string name="email">email</string>
+
+</resources>
