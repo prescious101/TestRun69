@@ -14,7 +14,6 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-
 import com.facebook.CallbackManager;
 import com.facebook.FacebookCallback;
 import com.facebook.FacebookException;
@@ -44,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView email;
     private TextView gender;
     private TextView facebookName;
+    private TextView mbirthday;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         btnLogin = (LoginButton)findViewById(R.id.login_button);
+        mbirthday = (TextView) findViewById(R.id.birthday);
         email = (TextView)findViewById(R.id.email);
         facebookName = (TextView)findViewById(R.id.name);
         gender = (TextView)findViewById(R.id.gender);
@@ -106,6 +107,7 @@ public class MainActivity extends AppCompatActivity {
             email.setText(jsonObject.getString("email"));
             gender.setText(jsonObject.getString("gender"));
             facebookName.setText(jsonObject.getString("name"));
+            mbirthday.setText(jsonObject.getString("birthday"));
 
             profilePictureView.setPresetSize(ProfilePictureView.NORMAL);
             profilePictureView.setProfileId(jsonObject.getString("id"));
