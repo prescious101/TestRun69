@@ -5,4 +5,11 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="title_faction">Empire</string>
+    <string name="title_home">Home</string>
+    <string name="title_leaderboards">Leaderboards</string>
+    <string name="title_runlog">Run Logs</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_story">Story</string>
+    <string name="title_signout">Sign Out</string>
 </resources>

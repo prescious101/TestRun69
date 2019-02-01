@@ -44,6 +44,8 @@ public class MainActivity extends AppCompatActivity {
     private TextView gender;
     private TextView facebookName;
     private TextView mbirthday;
+    private TextView mHome;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,11 +58,12 @@ public class MainActivity extends AppCompatActivity {
         mbirthday = (TextView) findViewById(R.id.birthday);
         email = (TextView)findViewById(R.id.email);
         facebookName = (TextView)findViewById(R.id.name);
+        mHome = (TextView) findViewById(R.id.hometown);
         gender = (TextView)findViewById(R.id.gender);
         infoLayout = (LinearLayout)findViewById(R.id.layout_info);
         profilePictureView = (ProfilePictureView)findViewById(R.id.image);
 
-        btnLogin.setReadPermissions(Arrays.asList("public_profile, email, user_birthday"));
+        btnLogin.setReadPermissions(Arrays.asList("public_profile, email, user_birthday,hometown"));
         callbackManager = CallbackManager.Factory.create();
 
         // Callback registration
@@ -79,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
                             }
                         });
                 Bundle parameters = new Bundle();
-                parameters.putString("fields", "id,name,email,gender, birthday");
+                parameters.putString("fields", "id,name,email,gender, birthday,hometown");
                 request.setParameters(parameters);
                 request.executeAsync();
             }
@@ -108,6 +111,7 @@ public class MainActivity extends AppCompatActivity {
             gender.setText(jsonObject.getString("gender"));
             facebookName.setText(jsonObject.getString("name"));
             mbirthday.setText(jsonObject.getString("birthday"));
+            mHome.setText(jsonObject.getString("hometown"));
 
             profilePictureView.setPresetSize(ProfilePictureView.NORMAL);
             profilePictureView.setProfileId(jsonObject.getString("id"));
@@ -119,14 +123,6 @@ public class MainActivity extends AppCompatActivity {
 
 
 }
-
-
-
-
-
-
-
-
 
 
 //    public void printHashkey(){

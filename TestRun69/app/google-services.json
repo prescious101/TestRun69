@@ -1,0 +1,135 @@
+{
+  "project_info": {
+    "project_number": "50873192406",
+    "firebase_url": "https://fromcodinginflow.firebaseio.com",
+    "project_id": "fromcodinginflow",
+    "storage_bucket": "fromcodinginflow.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:50873192406:android:7b993156fc4e26a9",
+        "android_client_info": {
+          "package_name": "com.prototype.project.firestore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "50873192406-32an3oh21b1n0fo7ptt961u2hbkire02.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5vBCVbHcHj4nC6q8ZwzdfWCVyrF1RpuU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:50873192406:android:6e60c4d8a2e9f6f0",
+        "android_client_info": {
+          "package_name": "com.prototype.project.firestore2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "50873192406-32an3oh21b1n0fo7ptt961u2hbkire02.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5vBCVbHcHj4nC6q8ZwzdfWCVyrF1RpuU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:50873192406:android:a931241acc7edbce",
+        "android_client_info": {
+          "package_name": "com.prototype.project.firestore3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "50873192406-32an3oh21b1n0fo7ptt961u2hbkire02.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5vBCVbHcHj4nC6q8ZwzdfWCVyrF1RpuU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:50873192406:android:e0aaf9407ec3ffb3",
+        "android_client_info": {
+          "package_name": "com.prototype.project.testrun69"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "50873192406-32an3oh21b1n0fo7ptt961u2hbkire02.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5vBCVbHcHj4nC6q8ZwzdfWCVyrF1RpuU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

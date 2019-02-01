@@ -8,6 +8,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.presciousalago.facebookintegration.MainActivity">
+
     <LinearLayout
         android:id="@+id/layout_info"
         android:layout_width="match_parent"
@@ -107,8 +108,25 @@
                 android:text="@string/app_name" />
         </LinearLayout>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/hometown"
+                android:textStyle="bold" />
 
+            <TextView
+                android:id="@+id/hometown"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/app_name" />
+        </LinearLayout>
 
     </LinearLayout>
 
@@ -118,4 +136,5 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:layout_gravity="center_horizontal" />
+
 </RelativeLayout>

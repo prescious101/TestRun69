@@ -6,4 +6,6 @@
     <string name="email">email</string>
     <string name="birthday">birthday</string>
     <string name="address">address</string>
+    <string name="home">home</string>
+    <string name="hometown">hometown</string>
 </resources>
