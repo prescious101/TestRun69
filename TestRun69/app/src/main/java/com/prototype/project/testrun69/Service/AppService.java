@@ -27,7 +27,10 @@ public class AppService extends Service {
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
         super.onStartCommand(intent, flags, startId);
+
         startTimer();
+
+
         return START_STICKY;
     }
 

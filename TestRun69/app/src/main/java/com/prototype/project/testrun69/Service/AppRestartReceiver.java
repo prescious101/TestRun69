@@ -11,7 +11,5 @@ public class AppRestartReceiver extends BroadcastReceiver {
         Log.i(AppRestartReceiver.class.getSimpleName(), "Service Stops! Oooooooooooooppppssssss!!!!");
         //context.startService(new Intent(context, AppService.class));
         context.startService(new Intent(context, BackgroundService.class));
-
-
     }
 }

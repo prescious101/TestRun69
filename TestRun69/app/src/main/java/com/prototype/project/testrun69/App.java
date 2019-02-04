@@ -11,8 +11,6 @@ public class App extends Application {
     public static final String CHANNEL_ID = "exampleServiceChannel";
     private static Context context;
 
-
-
     @Override
     public void onCreate() {
         super.onCreate();

@@ -5,19 +5,15 @@ import android.graphics.drawable.Drawable;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 public class AppData {
+    private String name;
     private String appName;
     private String packageName;
     private Drawable appIcon;
-    private Context mContext;
 
     public AppData() {
-    }
-
-    public AppData(Context mContext) {
-        this.mContext = mContext;
-
     }
 
     public AppData(String appName, String packageName) {
@@ -47,5 +43,13 @@ public class AppData {
 
     public String getAppName() {
         return appName;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }
