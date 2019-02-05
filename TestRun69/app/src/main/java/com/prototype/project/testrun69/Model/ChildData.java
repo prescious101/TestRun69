@@ -40,4 +40,8 @@ public class ChildData {
     public String getChildPkgApps() {
         return childPkgApps;
     }
+
+    public void setChildPkgApps(String childPkgApps) {
+        this.childPkgApps = childPkgApps;
+    }
 }
